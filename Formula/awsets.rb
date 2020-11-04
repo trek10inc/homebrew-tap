@@ -2,16 +2,16 @@
 class Awsets < Formula
   desc "A utility for crawling an AWS account and exporting all its resources for further analysis."
   homepage "https://github.com/trek10inc/awsets"
-  version "0.6.1"
+  version "0.6.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/trek10inc/awsets/releases/download/v0.6.1/awsets_0.6.1_darwin_x86_64.tar.gz"
-    sha256 "24744baf18a1f80154cdaf7e5cfc5f66e7081f1a1fc366279b4d34872d2b528a"
+    url "https://github.com/trek10inc/awsets/releases/download/v0.6.2/awsets_0.6.2_darwin_x86_64.tar.gz"
+    sha256 "3c8075947d363a5ce14abc0218f1963b9536c7351701dc36c2b90e04a01fa790"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/trek10inc/awsets/releases/download/v0.6.1/awsets_0.6.1_linux_x86_64.tar.gz"
-      sha256 "f0c8e0634a3af268525d40f2e9eea324efa2e52c85e4f3b6da6fdf195e8b61b6"
+      url "https://github.com/trek10inc/awsets/releases/download/v0.6.2/awsets_0.6.2_linux_x86_64.tar.gz"
+      sha256 "9d81a30b2b86b0f8979a192e0634a00160df0160628994a10a8475f70cf58df4"
     end
   end
 
